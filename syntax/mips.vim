@@ -206,7 +206,7 @@ syntax keyword mipsInstruction atan2 nextgroup=arglist
 " Highlights Linking {{{
 hi def link mipsComment             Comment
 hi def link mipsNumber              Number
-hi def link mipsLabel               Label
+hi def link mipsLabel               Function
 hi def link mipsRegister            Identifier
 hi def link mipsSpecialRegister     Special
 hi def link mipsDevice              Function
